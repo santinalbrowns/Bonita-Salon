@@ -90,5 +90,5 @@ class Client
     protected function prepare($sql)
     {
         return Application::$app->db->pdo->prepare($sql);
-    }
+    }2
 }
